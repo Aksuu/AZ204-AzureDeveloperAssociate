@@ -4,10 +4,10 @@ using System;
 public class Program
 {
     // Replace <documentEndpoint> with the information created earlier
-    private static readonly string EndpointUri = "https://az204cosmosdbaccaksu-northeurope.documents.azure.com:443/";
+    private static readonly string EndpointUri = "<EndpointUri>";
 
     // Set variable to the Primary Key from earlier.
-    private static readonly string PrimaryKey = "gptEyoN7BZRRhYKouHN7W9lOrsv6l8yfWiWzNRZz68GKzUuiQpcZOnZWFOt2BtLvq8lBX9JFNLVkACDbOv8Alg==";
+    private static readonly string PrimaryKey = "<PrimaryKey>";
 
     // The Cosmos client instance
     private CosmosClient cosmosClient;
